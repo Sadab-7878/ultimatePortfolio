@@ -18,10 +18,10 @@ const Navbar = () => {
           </div>
           <div>
             <ul className="gap-10 hidden md:flex">
-              <li className="text-2xl font-mono cursor-pointer">About</li>
-              <li className="text-2xl font-mono cursor-pointer">Experience</li>
-              <li className="text-2xl font-mono cursor-pointer">Projects</li>
-              <li className="text-2xl font-mono cursor-pointer">Contact</li>
+              <li className="text-2xl font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current ">About</li>
+              <li className="text-2xl font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current ">Experience</li>
+              <li className="text-2xl font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current">Projects</li>
+              <li className="text-2xl font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current">Contact</li>
             </ul>
 
             <div onClick={handle} className="md:hidden cursor-pointer">
@@ -30,10 +30,10 @@ const Navbar = () => {
             </div>
             <ul className= {open ? 'fixed md:hidden right-10 top-20 px-10 py-5 z-10 bg-white space-y-5 rounded shadow-lg duration-500' : 'hidden'}
             >
-                <li className="md:hidden cursor-pointer">About</li>
-                <li className="md:hidden cursor-pointer">Experience</li>
-                <li className="md:hidden cursor-pointer">Projects</li>
-                <li className="md:hidden cursor-pointer">Contact</li>
+                <li className="md:hidden font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current text-center">About</li>
+                <li className="md:hidden font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current text-center">Experience</li>
+                <li className="md:hidden font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current text-center">Projects</li>
+                <li className="md:hidden font-mono cursor-pointer border-b-4 border-transparent  pb-2 hover:border-current text-center">Contact</li>
             </ul>
            
           </div>

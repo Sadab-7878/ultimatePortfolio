@@ -19,8 +19,8 @@ const Hero = () => {
           </p>
 
           <div className="space-x-5 mt-5">
-            <button className="border border-black px-3 py-3 rounded-full">Download CV</button>
-            <button className="bg-black text-white px-3 py-3 rounded-full hover:bg-white hover:text-black hover:border hover:border-black">Contact Info</button>
+            <button className="border-2 border-black px-3 py-3 rounded-full">Download CV</button>
+            <button className="bg-black text-white px-3 py-3 rounded-full hover:bg-white hover:text-black border-2 border-black ">Contact Info</button>
           </div>
 
             <div className="mt-5 flex justify-center gap-5">
