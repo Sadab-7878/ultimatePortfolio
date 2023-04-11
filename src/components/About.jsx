@@ -29,15 +29,15 @@ const About = () => {
           </div>
 
           <div className="flex flex-col justify-center gap-10 my-10 lg:my-0">
-            <div className="mx-auto gap-2 md:mx-auto lg:mx-0 flex md:flex md:gap-8">
-              <div className="border-2 border-gray-400 w-44 h-44 md:w-80 md:h-40 rounded-[30px] flex flex-col justify-center items-center text-center md:flex md:flex-col md:justify-center md:items-center">
+            <div className="mx-auto gap-3 md:mx-auto lg:mx-0 flex md:flex md:gap-8">
+              <div className="border-2 border-gray-400 w-36 h-48 md:w-80 md:h-40 rounded-[30px] flex flex-col justify-center items-center text-center ">
                 <SlBadge size={20} />
 
                 <p className="font-bold text-lg">Experience</p>
                 <p className="text-gray-700">2+ years</p>
-                <p className="text-gray-700">Frontend <br /> Development</p>
+                <p className="text-gray-700">Frontend Development</p>
               </div>
-              <div className="border-2 border-gray-400 w-44 h-44 md:w-80 md:h-40 rounded-[30px] flex flex-col justify-center items-center text-center md:flex md:flex-col md:justify-center md:items-center">
+              <div className="border-2 border-gray-400 pt-5 md:pt-0 w-36 h-48 md:w-80 md:h-40 rounded-[30px] flex flex-col justify-center items-center text-center ">
                 <BsFillPeopleFill size={20} />
 
                 <p className="font-bold text-lg">Education</p>
