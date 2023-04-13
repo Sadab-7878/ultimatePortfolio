@@ -48,8 +48,8 @@ const About = () => {
               
             </div>
             <div className="text-justify px-10 lg:px-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis sapiente hic odio quod voluptates alias nobis 
-            excepturi perspiciatis natus voluptatem exercitationem voluptas quibusdam deserunt impedit libero rerum adipisci
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis sapiente hic odio quod voluptates alias nobis
+            excepturi perspiciatis natus voluptatem exercitationem voluptas quibusdam deserunt impedit libero rerum adipisci 
             quos nisi velit sunt! Quibusdam magni  laborum perspiciatis, eaque quos nobis?
             </div>
           </div>
